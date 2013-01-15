@@ -25,7 +25,6 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'cucumber'
-  gem 'cucumber-rails'
   gem 'pickle'
   gem "launchy"
   gem "rspec-rails"
@@ -36,6 +35,10 @@ group :development, :test do
   gem "factory_girl_rails"
   gem "capybara"
   gem "escape_utils"
+end
+
+group :test do
+  gem 'cucumber-rails'  
 end
 
 # To use ActiveModel has_secure_password
