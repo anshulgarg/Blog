@@ -11,4 +11,4 @@ Scenario: Write and see a new post
  | title   | hello world   |
  | content | dummy content |
   When I visit the posts page 
-  Then I should see "hello world" listed
+  Then I should see "hello world1" listed
