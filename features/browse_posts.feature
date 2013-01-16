@@ -7,8 +7,8 @@ Scenario: Write and see a new post
   Given I visit the posts page
   When I click on new post
   And I make a new post entry
-	|name|new post|
-	|title|hello world|
-	|content|dummy content|
+ | name    | new post      |
+ | title   | hello world   |
+ | content | dummy content |
   When I visit the posts page 
   Then I should see "hello world" listed
