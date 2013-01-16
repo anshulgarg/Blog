@@ -9,7 +9,7 @@ require 'factory_girl'
 require "selenium-webdriver"
 require 'selenium/client'
 # require 'capybara/cucumber' commented out because it doesn't want to work with it in
-# Capybara.default_driver = :selenium
+Capybara.default_driver = :selenium
 Capybara.default_selector = :css
 
 # Capybara defaults to XPath selectors rather than Webrat's default of CSS3. In
