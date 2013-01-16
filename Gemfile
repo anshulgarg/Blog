@@ -23,7 +23,7 @@ end
 
 gem 'jquery-rails'
 
-group :development, :test do
+group :test do
   gem 'cucumber'
   gem 'pickle'
   gem "launchy"
@@ -35,10 +35,7 @@ group :development, :test do
   gem "factory_girl_rails"
   gem "capybara"
   gem "escape_utils"
-end
-
-group :test do
-  gem 'cucumber-rails'  
+  gem 'cucumber-rails', :require => false
 end
 
 # To use ActiveModel has_secure_password
